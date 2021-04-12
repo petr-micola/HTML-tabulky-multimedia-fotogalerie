@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulka v HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
 </head>
+
 <body>
-    <header>Tabulka v HTML</header>
-    <main></main>
-    <footer>&copy; 2021 - SŠPU Opava - třída IT1 - autor: Petr Mičola</footer>
+    <header>
+        <h1>Tabulka v HTML</h1>
+        <ul>
+            <li><a class="active" href="../tabulka/index.html">Tabulka</a></li>
+            <li><a href="../multimedia/index.html">Multimedia</a></li>
+            <li><a href="../fotogalerie/index.html">Fotogalerie</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h2>Slavná osobnost: Tomáš Garrigue Masaryk</h2>
+        <table>
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Významná díla</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img width="90%" src="img/tgm.png" alt="Tomáš Garrigue Masaryk"></td>
+                    <td colspan="2">Tomáš Garrigue Masaryk</td>
+                    <td rowspan="4">Díla</td>
+                </tr>
+                <tr>
+                    <td>7. března 1850, Hodonín</td>
+                    <td>14. září 1937, Lány</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                </tr>
+                <tr>
+                    <td>Státník Tomáš Garrigue Masaryk</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Odkaz na wikipedii:<a target="_blank" href="https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk">https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <hr>&copy; 2021 - SŠPU Opava - třída IT1 - autor: Petr Mičola</footer>
 </body>
+
 </html>
