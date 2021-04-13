@@ -22,33 +22,43 @@
 
     <main>
         <h2>Obrázky v HTML</h2>
-        <figure>
-            <img src="img/tgm.png" alt="Tomáš Garrigue Masaryk" width="30%">
-            <figcaption>Českoslovensý státník Tomáš Garrigue Masaryk</figcaption>
-        </figure>
+        <div>
+            <figure >
+                <img class="center" src="img/tgm.png" alt="Tomáš Garrigue Masaryk" width="30%">
+                <figcaption>Československý státník Tomáš Garrigue Masaryk</figcaption>
+            </figure>
+        </div>
         <h2>Audio a video v HTML</h2>
-        <figure>
-            <video width="40%" controls>
-                <source src="media/slunce.mp4" type="video/mp4">
-                Váš prohlížeč bohužel nepodporuje tento formát.
-            </video>
-            <figcaption>Západ slunce</figcaption>
-        </figure>
-        <figure>
-            <audio controls>
-                <source src="media/pes.mp3" type="audio/mp3">
-                Váš prohlížeč bohužel nepodporuje tento formát.
-            </audio>
-            <figcaption>Pes</figcaption>
-        </figure>
+        <div>
+            <figure>
+                <video class="center" width="40%" controls>
+                    <source src="media/slunce.mp4" type="video/mp4">
+                    Váš prohlížeč bohužel nepodporuje tento formát.
+                </video>
+                <figcaption>Západ slunce</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure class="center">
+                <audio controls>
+                    <source src="media/pes.mp3" type="audio/mp3">
+                    Váš prohlížeč bohužel nepodporuje tento formát.
+                </audio>
+                <figcaption>Pes</figcaption>
+            </figure>
+        </div>
         <h2>Video z YouTube</h2>
-        <figure>
-            <iframe src="https://www.youtube.com/embed/cbGspKcR_5s"></iframe>
-            <figcaption>Jak udělat snímek obrazovky ve Windows 10</figcaption>
-        </figure>
+        <div>
+            <figure class="center">
+                <iframe src="https://www.youtube.com/embed/cbGspKcR_5s"></iframe>
+                <figcaption>Jak udělat snímek obrazovky ve Windows 10</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
-        <hr>&copy; 2021 - SŠPU Opava - třída IT1 - autor: Petr Mičola</footer>
+        <hr>
+        <p>&copy; 2021 - SŠPU Opava - třída IT1 - autor: Petr Mičola</p>
+    </footer>
 </body>
 
 </html>
