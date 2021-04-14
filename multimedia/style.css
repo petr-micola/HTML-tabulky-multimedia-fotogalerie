@@ -1,11 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 23%;
-  margin-right: 23%;
 }
 
-header {
+section {
+  padding: 3px;
   text-align: center;
+  background: linear-gradient(to bottom, #4CAF50 0%,#c4e082 100%);
+  color: white;
+  font-size: 25px;
 }
 
 div {
@@ -14,21 +16,40 @@ div {
 }
 
 main {
-  width: 60%;
-  margin: 0 auto;
   text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: #EEEEEE
 }
 
-footer {
-  text-align: center;
+h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
   text-align: center;
+  color: white;
+  background: #4CAF50;
+  padding: 10px;
+}
+
+footer {
+  padding-bottom: 10px;
+  text-align: center;
+  background: linear-gradient(to bottom, #c4e082 0%,#4CAF50 100%);
+  color: white;
+  font-size: 15px;
 }
 
 figcaption {
   text-align: center;
+  padding: 10px 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
@@ -63,7 +84,6 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #c4e082;
 }
-
 /*navbar*/

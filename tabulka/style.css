@@ -2,21 +2,42 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
+section {
+  padding: 3px;
   text-align: center;
+  background: linear-gradient(to bottom, #4CAF50 0%,#c4e082 100%);
+  color: white;
+  font-size: 25px;
 }
 
 main {
-  width: 60%;
-  margin: 0 auto;
+  text-align: justify;
+  margin-left: 23%;
+  margin-right: 23%;
+  background: #EEEEEE
 }
 
 footer {
+  padding-bottom: 10px;
   text-align: center;
+  background: linear-gradient(to bottom, #c4e082 0%,#4CAF50 100%);
+  color: white;
+  font-size: 15px;
+}
+
+h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
   text-align: center;
+  color: white;
+  background: #4CAF50;
+  padding: 10px;
+}
+
+h3 {
+  padding-left: 25px;
 }
 
 /*navbar*/
@@ -45,21 +66,17 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #c4e082;
 }
-
 /*navbar*/
 
 /*tabulka*/
-table {
-  width: 50%;
+th {
+  padding: 10px;
 }
 
-table,
-td,
-th {
+table, td, th {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
 /*tabulka*/
