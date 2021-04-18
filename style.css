@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #EEEEEE;
 }
 
 section {
@@ -11,9 +12,20 @@ section {
 }
 
 main {
+    font-size: 21px;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+div {
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+}
+
+img {
+    border-radius: 20px;
 }
 
 h1 {
@@ -21,10 +33,9 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-    color: white;
-    background: #4CAF50;
-    padding: 10px;
+    text-shadow: 0 0 3px #000000;
+    color: #4CAF50;
+    font-size: 40px;
 }
 
 footer {
@@ -33,15 +44,6 @@ footer {
     background: linear-gradient(to bottom, #c4e082 0%, #4CAF50 100%);
     color: white;
     font-size: 15px;
-}
-
-.uvod-smaller {
-    font-size: 21.5px;
-}
-
-.uvod-bigger {
-    font-size: 40px;
-    background: #EEEEEE
 }
 
 /*navbar*/
@@ -66,7 +68,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(63, 63, 63);
+    color: #c4e082;
 }
 
 .active {
@@ -78,3 +81,36 @@ li a:hover {
 }
 
 /*navbar*/
+
+/*navbar2*/
+.navbar2 ul {
+    border-radius: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar2 li {
+    float: none;
+}
+
+.navbar2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar2 ul:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar2 li a:hover {
+    background-color: rgb(63, 63, 63);
+    color: #c4e082;
+}
+
+/*navbar2*/

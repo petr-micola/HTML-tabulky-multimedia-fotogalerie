@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimedia v HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.png">
 </head>
@@ -13,12 +14,12 @@
 <body>
     <header>
         <section>
-            <h1>Multimedia v HTML</h1>
+            <h1><i class="fa fa-play-circle" aria-hidden="true"></i> Multimedia v HTML</h1>
         </section>
         <ul>
             <li><a class="uvod" href="../index.html">ÚVOD</a></li>
             <li><a href="../tabulka/index.html">Tabulka</a></li>
-            <li><a class="active" href="../multimedia/index.html">Multimedia</a></li>
+            <li><a class="active" href="#">Multimedia</a></li>
             <li><a href="../fotogalerie/index.html">Fotogalerie</a></li>
         </ul>
     </header>
@@ -27,8 +28,8 @@
         <h2>Obrázky v HTML</h2>
         <div>
             <figure>
-                <img src="img/kampa.jpg" alt="Praha - Kampa" width="50%">
-                <figcaption>Pražský ostrov Kampa</figcaption>
+                <img src="img/NusaPenida.jpg" alt="Ostrov Nusa Penida">
+                <figcaption>Ostrov Nusa Penida</figcaption>
             </figure>
         </div>
         <h2>Audio a video v HTML</h2>
@@ -42,8 +43,8 @@
             </figure>
         </div>
         <div>
-            <figure class="center">
-                <audio controls>
+            <figure>
+                <audio class="center" controls>
                     <source src="media/pes.mp3" type="audio/mp3">
                     Váš prohlížeč bohužel nepodporuje tento formát.
                 </audio>
@@ -53,7 +54,7 @@
         <h2>Video z YouTube</h2>
         <div>
             <figure class="center">
-                <iframe src="https://www.youtube.com/embed/cbGspKcR_5s"></iframe>
+                <iframe class="center" src="https://www.youtube.com/embed/cbGspKcR_5s"></iframe>
                 <figcaption>Jak pořídit snímek obrazovky ve Windows 10</figcaption>
             </figure>
         </div>
