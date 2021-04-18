@@ -154,6 +154,6 @@ div.desc {
   
   h1, h2, footer {
     font-size: 100%;
-    color: white;
+    color: rgb(255, 0, 0);
   }
 }
