@@ -103,14 +103,16 @@ div.desc {
   clear: both
 }
 
-@media only screen and (max-width: 1920px) {
-  div.gallery {
-    width: 20%;
-  }
-}
-
 @media only screen and (max-width: 1000px) {
   div.gallery {
-    width: 40%;
+    width: 90%;
+  }
+  
+  h1, h2, footer {
+    font-size: 70%;
+  }
+
+  main {
+    width: 70%;
   }
 }
