@@ -76,13 +76,8 @@ li a:hover {
 /*galerie*/
 div.gallery {
   margin: 10px;
-  /*border: 1px solid #ccc;*/
   float: left;
   width: 310px;
-}
-
-div.gallery:hover {
-  /*border: 1px solid #777;*/
 }
 
 div.gallery img {
@@ -106,4 +101,16 @@ div.desc {
 
 .clear {
   clear: both
+}
+
+@media only screen and (max-width: 1920px) {
+  div.gallery {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  div.gallery {
+    width: 40%;
+  }
 }
