@@ -103,16 +103,57 @@ div.desc {
   clear: both
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 320px) {
   div.gallery {
     width: 90%;
   }
   
   h1, h2, footer {
     font-size: 70%;
+    color: blue;
   }
+}
 
-  main {
-    width: 70%;
+@media only screen and (min-width: 768px) {
+  div.gallery {
+    width: 46%;
+  }
+  
+  h1, h2, footer {
+    font-size: 80%;
+    color: green;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  div.gallery {
+    width: 21%;
+  }
+  
+  h1, h2, footer {
+    font-size: 90%;
+    color: rgb(0, 255, 191);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  div.gallery {
+    width: 22%;
+  }
+  
+  h1, h2, footer {
+    font-size: 100%;
+    color: rgb(234, 0, 255);
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  div.gallery {
+    width: 310px;
+  }
+  
+  h1, h2, footer {
+    font-size: 100%;
+    color: white;
   }
 }
