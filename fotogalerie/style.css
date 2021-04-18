@@ -103,14 +103,11 @@ div.desc {
   clear: both
 }
 
+
+/*responzivnost*/
 @media only screen and (min-width: 320px) {
   div.gallery {
     width: 90%;
-  }
-  
-  h1, h2, footer {
-    font-size: 70%;
-    color: blue;
   }
 }
 
@@ -118,21 +115,11 @@ div.desc {
   div.gallery {
     width: 46%;
   }
-  
-  h1, h2, footer {
-    font-size: 80%;
-    color: green;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
   div.gallery {
     width: 21%;
-  }
-  
-  h1, h2, footer {
-    font-size: 90%;
-    color: rgb(0, 255, 191);
   }
 }
 
@@ -140,20 +127,12 @@ div.desc {
   div.gallery {
     width: 22%;
   }
-  
-  h1, h2, footer {
-    font-size: 100%;
-    color: rgb(234, 0, 255);
-  }
 }
 
 @media only screen and (min-width: 1920px) {
   div.gallery {
     width: 310px;
   }
-  
-  h1, h2, footer {
-    font-size: 100%;
-    color: rgb(255, 0, 0);
-  }
 }
+
+/*responzivnost*/
