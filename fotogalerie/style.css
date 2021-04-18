@@ -86,14 +86,15 @@ div.gallery:hover {
 }
 
 div.gallery img {
+  border: 2px solid #4CAF50;
+  border-radius: 20px;
   width: 100%;
   height: auto;
 }
 
 div.gallery img:hover {
-  border-radius: 20px;
-  width: 100%;
-  height: auto;
+  border: 2px solid #c4e082;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.desc {
