@@ -70,7 +70,6 @@ li a:hover {
 .uvod {
   border-right: 1px solid #bbb;
 }
-
 /*navbar*/
 
 /*galerie*/
@@ -96,13 +95,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
 /*galerie*/
 
 .clear {
   clear: both
 }
-
 
 /*responzivnost*/
 @media only screen and (min-width: 320px) {
@@ -134,5 +131,4 @@ div.desc {
     width: 310px;
   }
 }
-
 /*responzivnost*/
