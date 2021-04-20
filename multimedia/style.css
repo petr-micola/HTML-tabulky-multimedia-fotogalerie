@@ -54,7 +54,6 @@ img {
   margin-right: auto;
 }
 
-/*navbar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -88,16 +87,15 @@ li a:hover {
   border-right: 1px solid #bbb;
 }
 
-/*navbar*/
-
-/*responzivnost*/
 @media only screen and (min-width: 320px) {
   main {
     margin-left: auto;
     margin-right: auto;
   }
 
-  video, audio, img {
+  video,
+  audio,
+  img {
     width: 100%;
   }
 
@@ -112,7 +110,10 @@ li a:hover {
     margin-right: auto;
   }
 
-  video, audio, iframe, img {
+  video,
+  audio,
+  iframe,
+  img {
     width: 60%;
   }
 }
@@ -129,4 +130,3 @@ li a:hover {
     width: 40%;
   }
 }
-/*responzivnost*/
